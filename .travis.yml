@@ -11,6 +11,8 @@ env:
 cache:
  directories:
    - node_modules
+   - $HOME/.npm
+   - $HOME/.yarn-cache
 
 notifications:
   webhooks:
@@ -33,6 +35,3 @@ install:
 
 script:
   - npm run ci
-
-after_success:
-  - ./scripts/npm-publish.sh
