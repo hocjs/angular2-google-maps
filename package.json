@@ -32,6 +32,9 @@
     "zone.js": "^0.6.25"
   },
   "devDependencies": {
+    "@angular/compiler-cli": "^0.6.0",
+    "@ngtools/webpack": "^1.1.0",
+    "@types/jasmine": "^2.5.35",
     "babel-eslint": "6.0.4",
     "clang-format": "1.0.42",
     "del": "2.2.2",
@@ -64,7 +67,8 @@
     "systemjs": "0.19.38",
     "tslint": "3.13.0",
     "typescript": "^2.0.2",
-    "watchify": "3.7.0"
+    "watchify": "3.7.0",
+    "webpack": "2.1.0-beta.25"
   },
   "jspm": {
     "jspmNodeConversion": false,

@@ -4,13 +4,28 @@
         "target": "es5",
         "noImplicitAny": true,
         "experimentalDecorators": true,
-        "outDir": "dist/",
+        "outDir": "d",
         "rootDir": ".",
         "sourceMap": true,
-        "removeComments": false
+        "removeComments": false,
+        "declaration": true,
+        "lib": [
+            "es2015",
+            "dom"            
+        ],
+        "types": [
+            "jasmine"
+        ],
+        "listEmittedFiles": true
     },
+    "angularCompilerOptions": {
+        "genDir": ".",
+        "debug": true
+    },
+    "include": [
+        "src/**/*"
+    ],
     "exclude": [
-        "node_modules",
         "gulp",
         "dist",
         "assets"
